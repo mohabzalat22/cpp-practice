@@ -7,7 +7,7 @@ This repo is for practicing C++ programming.
 To compile a C++ file:
 
 ```bash
-g++ -o output_file source_file.cpp
+g++ -o build/output_file source_file.cpp
 ```
 
 To run the compiled program:
@@ -20,6 +20,7 @@ To run the compiled program:
 
 - Basic syntax and data types
 - Control structures (loops, conditionals)
+- File operations (create, read, write, delete)
 - Functions and classes
 - Memory management
 - Standard Template Library (STL)

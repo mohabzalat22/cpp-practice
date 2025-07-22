@@ -7,13 +7,13 @@ This repo is for practicing C++ programming.
 To compile a C++ file:
 
 ```bash
-g++ file_operations/<file_name>.cpp -o ./build/<file_name>
+g++ <dir>/<file_name>.cpp -o ./build/<file_name>
 ```
 
 To run the compiled program:
 
 ```bash
-./output_file
+./build/output_file
 ```
 
 ## What I'm Learning

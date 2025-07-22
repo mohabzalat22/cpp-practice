@@ -7,7 +7,7 @@ This repo is for practicing C++ programming.
 To compile a C++ file:
 
 ```bash
-g++ -o build/output_file source_file.cpp
+g++ file_operations/<file_name>.cpp -o ./build/<file_name>
 ```
 
 To run the compiled program:

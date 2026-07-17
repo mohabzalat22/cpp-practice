@@ -17,7 +17,6 @@ int main() {
 
     int result = 0;
     for(int i=0;i<stack.size();i++){
-        cout << stack[i] << '\n';
         if(stack[i] == "X++" || stack[i] == "++X"){
             result += 1;
         }

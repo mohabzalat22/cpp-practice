@@ -6,7 +6,9 @@ using namespace std;
 vector<int> getTopX(vector<int> l, int n){
     vector<int> list;
     for(int i=0;i<n;i++){
-        list.push_back(l[i]);
+        if(l[i]>0){
+            list.push_back(l[i]);
+        }
     }
     return list;
 };

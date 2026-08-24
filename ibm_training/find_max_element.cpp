@@ -4,7 +4,7 @@ using namespace std;
 
 int findMax(vector<int> arr){
     int max= arr[0]; // init max
-    for(int i=0;i<arr.size()-1;i++){
+    for(int i=0;i<arr.size();i++){
         if(arr[i]>max){
             max = arr[i];
         }

@@ -5,7 +5,7 @@ using namespace std;
 int findSecondMax(vector<int> arr){
     int max= arr[0]; // init max
     int secondMax = arr[0];
-    for(int i=0;i<arr.size()-1;i++){
+    for(int i=0;i<arr.size();i++){
         if(arr[i]>max){
             secondMax = max;
             max = arr[i];
